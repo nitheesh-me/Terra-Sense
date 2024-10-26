@@ -1,0 +1,5 @@
+sudo apt-get install gdal-bin
+
+gdalinfo ../database/earthdata/MCDWD_L3_NRT.A2024300.h35v13.061.hdf
+
+gdal_translate -of GTiff HDF4_EOS:EOS_GRID:"../database/earthdata/MCDWD_L3_NRT.A2024300.h35v13.061.hdf":Grid_Water_Composite:FloodCS_1Day_250m "MCDWD_L3_NRT.A2024300.h35v13.061.tif"
