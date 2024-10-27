@@ -74,7 +74,9 @@ real time.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
 
-> [!IMPORTANT] TL;DR
+> [!IMPORTANT]
+> **TL;DR**
+> 
 > Develop a real-time disaster prediction and alert system that leverages satellite imagery and data analytics to provide timely alerts and insights to at-risk communities. This uses machine learning to predict disasters and assess their impact, with a user-friendly interface for residents and authorities.
 
 Check out the [SOLUTION.md](./SOLUTION.md) file for a detailed explanation of the solution.
