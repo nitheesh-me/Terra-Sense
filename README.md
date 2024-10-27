@@ -19,6 +19,9 @@
 
 ---
 
+
+![UI](./ui.gif)
+
 <p align="center"> identifies patterns or risk factors that
 indicate the onset of these disasters
     <br>
@@ -76,7 +79,7 @@ real time.
 
 > [!IMPORTANT]
 > **TL;DR**
-> 
+>
 > Develop a real-time disaster prediction and alert system that leverages satellite imagery and data analytics to provide timely alerts and insights to at-risk communities. This uses machine learning to predict disasters and assess their impact, with a user-friendly interface for residents and authorities.
 
 Check out the [SOLUTION.md](./SOLUTION.md) file for a detailed explanation of the solution.
@@ -174,3 +177,4 @@ Opensource clone of DeepWeather project
 ### Output
 
 ![Output](./flooding.gif)
+
