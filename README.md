@@ -35,11 +35,10 @@ indicate the onset of these disasters
   - [Other considerations](#other-considerations)
 - [🏁 Getting Started ](#-getting-started-)
   - [Prerequisites](#prerequisites)
-  - [Installing](#installing)
-- [🎈 Usage ](#-usage-)
-- [⛏️ Built With ](#️-built-with-)
-- [✍️ Authors ](#️-authors-)
-- [🎉 Acknowledgments ](#-acknowledgments-)
+  - [Installing and Useage of frontend](#installing-and-useage-of-frontend)
+  - [Backend Server and analysis](#backend-server-and-analysis)
+  - [DeepWeather](#deepweather)
+  - [Output](#output)
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
@@ -142,7 +141,7 @@ Addressing these areas will improve disaster preparedness and response, ultimate
 
 - [Bun](https://bun.sh) (v1.1.32)
 
-### Installing
+### Installing and Useage of frontend
 
 To install dependencies:
 
@@ -153,29 +152,23 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run dev
 ```
 
-## 🎈 Usage <a name="usage"></a>
+### Backend Server and analysis
 
-Add notes about how to use the system.
+Find scripts in `./ANALUSIS/` folder
 
-## ⛏️ Built With <a name = "tech_stack"></a>
+```bash
+# Main script
+python run10.py
+```
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+### DeepWeather
 
-## ✍️ Authors <a name = "authors"></a>
+Opensource clone of DeepWeather project
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
+### Output
 
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+![Output](./flooding.gif)
